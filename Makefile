@@ -1,6 +1,6 @@
 STYLES = ./public/css/styles.css
 STYLES_MIN = ./public/css/styles.min.css
-STYLES_LESS = ./views/styles/styles.less
+STYLES_LESS = ./upstreams/bootstrap/less/styles.less
 
 RESPONSIVE = ./public/css/responsive.css
 RESPONSIVE_MIN = ./public/css/responsive.min.css
