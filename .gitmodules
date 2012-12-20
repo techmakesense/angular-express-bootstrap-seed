@@ -1,0 +1,3 @@
+[submodule "upstreams/bootstrap"]
+	path = upstreams/bootstrap
+	url = https://github.com/twitter/bootstrap
