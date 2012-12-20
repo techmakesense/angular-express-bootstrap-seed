@@ -15,8 +15,10 @@ styles:
 	mkdir -p public/css
 	cp upstreams/bootstrap/img/* public/img/
 
-# styles.less is intended to copied there, so that we don't have to type long import paths
+# styles.less and custom_variables.less is intended to copied there, so that we don't have to type long import paths
 	cp views/styles/styles.less upstreams/bootstrap/less/
+	cp views/styles/custom_variables.less upstreams/bootstrap/less/
+
 	recess --compile ${STYLES_LESS} > ${STYLES}
 	recess --compress ${STYLES_LESS} > ${STYLES_MIN}
 	recess --compile ${RESPONSIVE_LESS} > ${RESPONSIVE}
