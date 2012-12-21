@@ -1,3 +1,6 @@
 [submodule "upstreams/bootstrap"]
 	path = upstreams/bootstrap
 	url = https://github.com/twitter/bootstrap
+[submodule "upstreams/font-awesome"]
+	path = upstreams/font-awesome
+	url = https://github.com/FortAwesome/Font-Awesome/
